@@ -440,4 +440,5 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
+  <project path="vendor" name="android_vendor_asus_grouper" remote="enssorcel" revision="mod" />
 </manifest>
