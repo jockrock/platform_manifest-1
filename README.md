@@ -1,4 +1,4 @@
-# PSOA #
+# Euclidean ROM #
 
 ## Downloading the source ##
 
