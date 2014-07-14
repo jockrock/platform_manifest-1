@@ -1,4 +1,4 @@
-# Euclidean ROM #
+# Euclidean #
 
 ## Downloading the source ##
 
