@@ -5,18 +5,18 @@
            fetch=".." />
   <remote name="rascarlo"
            fetch="git://github.com/rascarlo/" /> 
-  <remote name="enssorcel"
-           fetch="git://github.com/enssorcel/" />
+  <remote name="euclidean"
+           fetch="git://github.com/EuclideanROM/" />
            
   <default revision="refs/tags/android-4.4.4_r1"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform_build" groups="pdk" remote="enssorcel" revision="psoa_r1" >
+  <project path="build" name="platform_build" groups="pdk" remote="euclidean" revision="psoa_r1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="platform_art" remote="enssorcel" revision="psoa_r1" />
+  <project path="art" name="platform_art" remote="euclidean" revision="psoa_r1" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
@@ -31,7 +31,7 @@
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
   <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
-  <project path="device/asus/grouper" name="android_device_asus_grouper" groups="device,grouper" remote="enssorcel" revision="psoa_r1" />
+  <project path="device/asus/grouper" name="android_device_asus_grouper" groups="device,grouper" remote="euclidean" revision="psoa_r1" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
@@ -439,5 +439,5 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <project path="vendor" name="android_vendor_asus_grouper" remote="enssorcel" revision="psoa_r0" />
+  <project path="vendor" name="android_vendor_asus_grouper" remote="euclidean" revision="psoa_r1" />
 </manifest>
