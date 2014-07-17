@@ -427,4 +427,5 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
   <project path="vendor" name="android_vendor_asus_grouper" remote="euclidean" revision="psoa_r1" />
+  <project path="prebuilts/gcc/linux-x86/arm" name="linaro_toolchains_2014" remote="euclidean" revision="psoa_r1" />
 </manifest>
