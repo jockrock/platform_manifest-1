@@ -7,7 +7,11 @@
            fetch="git://github.com/rascarlo/" /> 
   <remote name="euclidean"
            fetch="git://github.com/EuclideanROM/" />
-           
+  <remote name="ultima"
+           fetch="git://github.com/UltimaAOSP/" />         
+  <remote name="cyanogen"
+           fetch="git://github.com/CyanogenMod/" />
+  
   <default revision="refs/tags/android-4.4.4_r1"
            remote="aosp"
            sync-j="4" />
