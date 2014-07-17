@@ -3,6 +3,10 @@
 
   <remote  name="aosp"
            fetch=".." />
+  <default revision="refs/tags/android-4.4.4_r1"
+           remote="aosp"
+           sync-j="4" />
+           
   <remote name="rascarlo"
            fetch="git://github.com/rascarlo/" /> 
   <remote name="euclidean"
@@ -12,9 +16,7 @@
   <remote name="cyanogen"
            fetch="git://github.com/CyanogenMod/" />
   
-  <default revision="refs/tags/android-4.4.4_r1"
-           remote="aosp"
-           sync-j="4" />
+  
 
   <project path="build" name="platform_build" groups="pdk" remote="euclidean" revision="psoa_r1" >
     <copyfile src="core/root.mk" dest="Makefile" />
