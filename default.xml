@@ -15,6 +15,8 @@
            fetch="git://github.com/UltimaAOSP/" />         
   <remote name="cyanogen"
            fetch="git://github.com/CyanogenMod/" />
+  <remote name="enssorcel"
+           fetch="git://github.com/enssorcel/" />
   
   
 
@@ -39,6 +41,8 @@
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
   <project path="device/asus/grouper" name="android_device_asus_grouper" groups="device,grouper" remote="euclidean" revision="psoa_r1" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
+  <project path="kernel/asus/grouper-kernel" name="Grouper-3.1.10" groups="device,grouper" remote="enssorcel" revision="nightlies-4.4_f2fs" />
+  <project path="vendor" name="android_vendor_asus_grouper" remote="euclidean" revision="psoa_r1" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
@@ -397,6 +401,7 @@
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="pdk,linux,x86" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" groups="pdk,linux,x86" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" groups="pdk,linux,x86" />
+  <project path="prebuilts/gcc/linux-x86/arm/linaro" name="linaro_toolchains_2014" remote="euclidean" revision="psoa_r1" groups="pdk,linux,arm" />
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" />
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" />
@@ -425,7 +430,5 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-
-  <project path="vendor" name="android_vendor_asus_grouper" remote="euclidean" revision="psoa_r1" />
-  <project path="prebuilts/gcc/linux-x86/arm/linaro" name="linaro_toolchains_2014" remote="euclidean" revision="psoa_r1" groups="pdk,linux,arm" />
+  
 </manifest>
