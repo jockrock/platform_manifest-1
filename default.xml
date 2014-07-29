@@ -433,5 +433,9 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  
+
+  <project path="vendor/euclidean" name="platform_vendor_euclidean" remote="euclidean" revision="psoa_r1" >
+    <copyfile src="build.sh" dest="rom-build.sh" />
+  </project>
+
 </manifest>
