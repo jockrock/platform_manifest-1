@@ -18,7 +18,7 @@
   <remote name="enssorcel"
            fetch="git://github.com/enssorcel/" />
   
-  
+  <project path="platform/manifest" name="platform_manifest" remote="euclidean" revision="psoa_r1" />  
 
   <project path="build" name="platform_build" groups="pdk" remote="euclidean" revision="psoa_r1" >
     <copyfile src="core/root.mk" dest="Makefile" />
