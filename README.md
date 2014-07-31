@@ -50,9 +50,5 @@ where x is the number of jobs e.g. -j4 and -c syncs only the specified branch
 ```bash
 # Go to the root of the source tree...
 $ cd WORKSPACE
-$ . build/envsetup.sh
-$ lunch
-# Pick your aosp_DEVICE-userdebug
-$ make otapackage -jx
-# Where x is the number of jobs e.g. -j4 (pick twice the number of cores e.g. -j8 for quad core)
+$ ./rom-build.sh DEVICE
 ```
