@@ -432,7 +432,7 @@
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
   <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
-  <project path="kernel/asus/grouper-kernel" name="Grouper-3.1.10" groups="device,grouper" remote="enssorcel" revision="nightlies-4.4_f2fs" />
+  <project path="kernel/asus/grouper-kernel" name="platform_kernel_asus_grouper" groups="device,grouper" remote="euclidean" revision="psoa_r1" />
   <project path="vendor" name="android_vendor_asus_grouper" remote="euclidean" revision="psoa_r1" />
   <!-- Devices Configuration End -->
   
