@@ -23,14 +23,11 @@
   <remote name="enssorcel"
            fetch="git://github.com/enssorcel/" />
   
-  <project path="platform/manifest" name="platform_manifest" remote="euclidean" revision="psoa_r1" />  
 
-  <project path="build" name="platform_build" groups="pdk" remote="euclidean" revision="psoa_r1" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
+  <project path="platform/manifest" name="platform_manifest" remote="euclidean" revision="psoa_r1" />
+
+  <!-- Android Open Source Start -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="platform_art" remote="euclidean" revision="psoa_r1" />
-  <project path="bionic" name="platform_bionic" groups="pdk" remote="euclidean" revision="psoa_r1" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
@@ -41,13 +38,6 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
-  <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
-  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
-  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
-  <project path="device/asus/grouper" name="android_device_asus_grouper" groups="device,grouper" remote="euclidean" revision="psoa_r1" />
-  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
-  <project path="kernel/asus/grouper-kernel" name="Grouper-3.1.10" groups="device,grouper" remote="enssorcel" revision="nightlies-4.4_f2fs" />
-  <project path="vendor" name="android_vendor_asus_grouper" remote="euclidean" revision="psoa_r1" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
@@ -59,10 +49,6 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead" />
-  <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
-  <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -81,7 +67,6 @@
   <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
-  <project path="external/busybox" name="android_external_busybox" remote="rascarlo" revision="kk-ras-mr3_r1.1" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
@@ -140,7 +125,6 @@
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
   <project path="external/giflib" name="platform/external/giflib" />
-  <project path="external/google" name="platform_external_google" remote="euclidean" revision="psoa_r1" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
   <project path="external/grub" name="platform/external/grub" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
@@ -264,7 +248,6 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="euclidean" revision="psoa_r1" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -310,8 +293,6 @@
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
-  <project path="external/koush/Superuser" name="Cyanogenmod/Superuser" remote="github" revision="cm-11.0" />
-  <project path="external/koush/Widgets" name="Cyanogenmod/Widgets" remote="github" revision="cm-11.0" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
@@ -333,14 +314,11 @@
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" />
-  <project path="packages/apps/EuclideanDelta" name="platform_packages_apps_EuclideanDelta" remote="euclidean" revision="psoa_r1" />
-  <project path="packages/apps/EuclideanWizard" name="platform_packages_apps_EuclideanWizard" remote="euclidean" revision="psoa_r1" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
@@ -349,7 +327,6 @@
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="euclidean" revision="psoa_r1" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -401,10 +378,8 @@
   <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" groups="pdk,darwin,x86" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/arm" name="linaro_toolchains_2014" remote="euclidean" revision="2014.07" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="aosp" revision="master" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="pdk,linux" />
@@ -425,7 +400,6 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/core" name="platform/system/core" groups="pdk" />
-  <project path="system/extras" name="platform_system_extras" groups="pdk" remote="euclidean" revision="psoa_r1" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
@@ -442,8 +416,52 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
+  <!-- CyanogenMod Start -->
+  <project path="external/koush/Superuser" name="Cyanogenmod/Superuser" remote="github" revision="cm-11.0" />
+  <project path="external/koush/Widgets" name="Cyanogenmod/Widgets" remote="github" revision="cm-11.0" />
+  <!-- CyanogenMod End -->
+
+  <!-- Devices Configuration Start -->
+  <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
+  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
+  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
+  <project path="device/asus/grouper" name="android_device_asus_grouper" groups="device,grouper" remote="euclidean" revision="psoa_r1" />
+  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
+  <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead" />
+  <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
+  <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
+  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
+  <project path="kernel/asus/grouper-kernel" name="Grouper-3.1.10" groups="device,grouper" remote="enssorcel" revision="nightlies-4.4_f2fs" />
+  <project path="vendor" name="android_vendor_asus_grouper" remote="euclidean" revision="psoa_r1" />
+  <!-- Devices Configuration End -->
+  
+  <!-- Euclidean ROM Start -->
+  <project path="build" name="platform_build" groups="pdk" remote="euclidean" revision="psoa_r1" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <project path="art" name="platform_art" remote="euclidean" revision="psoa_r1" />
+  <project path="bionic" name="platform_bionic" groups="pdk" remote="euclidean" revision="psoa_r1" />
+  <project path="external/google" name="platform_external_google" remote="euclidean" revision="psoa_r1" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="euclidean" revision="psoa_r1" />
+  <project path="packages/apps/EuclideanDelta" name="platform_packages_apps_EuclideanDelta" remote="euclidean" revision="psoa_r1" />
+  <project path="packages/apps/EuclideanWizard" name="platform_packages_apps_EuclideanWizard" remote="euclidean" revision="psoa_r1" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="euclidean" revision="psoa_r1" />
+  <project path="prebuilts/gcc/linux-x86/arm" name="linaro_toolchains_2014" remote="euclidean" revision="2014.07" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="arm-linux-androideabi-4.8" remote="euclidean" revision="psoa_r1" />
+  <project path="system/extras" name="platform_system_extras" groups="pdk" remote="euclidean" revision="psoa_r1" />
+
   <project path="vendor/euclidean" name="platform_vendor_euclidean" remote="euclidean" revision="psoa_r1" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
+  <!-- Euclidean ROM End -->
+
+  <!-- Omnirom Start -->
+  <project path="packages/apps/Launcher3" name="omnirom/android_packages_apps_Launcher3" remote="github" revision="android-4.4" />
+  <!-- Omnirom End -->
+
+  <!-- Rastakat Start -->
+  <project path="external/busybox" name="android_external_busybox" remote="rascarlo" revision="kk-ras-mr3_r1.1" />
+  <!-- Rastakat End -->
 
 </manifest>
