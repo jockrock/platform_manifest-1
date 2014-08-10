@@ -418,10 +418,10 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
   <!-- CyanogenMod Start -->
+  <project path="external/cardslib" name="android_external_cardslib" remote="cyanogen" revision="cm-11.0" />
   <project path="external/koush/Superuser" name="Superuser" remote="cyanogen" revision="cm-11.0" />
   <project path="external/koush/Widgets" name="Widgets" remote="cyanogen" revision="cm-11.0" />
   <project path="packages/apps/CMHome" name="android_packages_apps_CMHome" remote="cyanogen" revision="cm-11.0" />
-
   <!-- CyanogenMod End -->
 
   <!-- Devices Configuration Start -->
