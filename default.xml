@@ -7,7 +7,7 @@
   <remote  name="github"
            fetch="https://github.com" />
 
-  <default revision="refs/tags/android-4.4.4_r1"
+  <default revision="refs/tags/android-4.4.4_r2.0.1"
            remote="aosp"
            sync-j="4" />
            
@@ -416,6 +416,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+  <!-- Android Open Source End -->
 
   <!-- CyanogenMod Start -->
   <project path="external/cardslib" name="android_external_cardslib" remote="cyanogen" revision="cm-11.0" />
