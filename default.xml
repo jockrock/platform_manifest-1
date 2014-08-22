@@ -61,7 +61,7 @@
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
 
   <!-- Nexus Kernel -->
-  <project path="kernel/asus/grouper" name="Madhi/android_kernel_asus_grouper" remote="github" revision="kk-4.4" />
+  <project path="kernel/asus/grouper" name="Mahdi-Rom/android_kernel_asus_grouper" remote="github" revision="kk-4.4" />
   <!-- Currently disabled, we only support Grouper for now!
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
