@@ -391,7 +391,7 @@
   <project path="pdk" name="platform/pdk" groups="pdk" />
 
   <!-- Euclidean Toolchains -->
-  <project path="prebuilts/gcc/linux-x86/arm" name="linaro_toolchains_2014" remote="euclidean" revision="2014.07" />
+  <project path="prebuilts/gcc/linux-x86/arm" name="linaro_toolchains_2014" remote="euclidean" revision="psoa_r1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="aosp" revision="master" />
 
   <!-- Prebuilts -->
