@@ -367,7 +367,7 @@
 
   <!-- Euclidean Toolchains -->
   <project path="prebuilt/linux-x86/toolchain" name="Christopher83/linaro_toolchains_2014" remote="github" revision="2014.08" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="aosp" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="UBERUTILS/arm-linux-androideabi-4.8" remote="github" revision="master" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" />
