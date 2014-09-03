@@ -24,8 +24,8 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="Crostantin/android_art" remote="github" revision="rastaboost" />
-  <project path="bionic" name="Crostantin/platform_bionic" groups="pdk" remote="github" revision="rastaboost" />
+  <project path="art" name="KitKatPurity/android_art" remote="github" revision="kitkat" />
+  <project path="bionic" name="KitKatPurity/platform_bionic" groups="pdk" remote="github" revision="kitkat" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
