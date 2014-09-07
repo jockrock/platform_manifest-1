@@ -163,8 +163,7 @@
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" />
   <project path="external/jmdns" name="platform/external/jmdns" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" />
-  <project path="external/jpeg" name="platform/external/jpeg" groups="pdk" />
-  <project path="external/jsilver" name="platform/external/jsilver" />
+  <project path="external/jpeg" name="KitKatPurity/platform_external_jpeg" groups="pdk" remote="github" revision="kitkat" />  <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
@@ -186,8 +185,7 @@
   <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
-  <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
-  <project path="external/libppp" name="platform/external/libppp" />
+  <project path="external/libpng" name="KitKatPurity/platform_external_libpng" groups="pdk" remote="github" revision="kitkat" />  <project path="external/libppp" name="platform/external/libppp" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libsepol" name="platform/external/libsepol" groups="pdk" />
   <project path="external/libssh2" name="platform/external/libssh2" />
@@ -238,7 +236,7 @@
   <project path="external/robolectric" name="platform/external/robolectric" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
-  <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
+  <project path="external/sepolicy" name="KitKatPurity/platform_external_sepolicy" groups="pdk" remote="github" revision="kitkat" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
   <project path="external/skia" name="platform/external/skia" />
@@ -311,7 +309,7 @@
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
-  <project path="libcore" name="platform/libcore" />
+  <project path="libcore" name="KitKatPurity/platform_libcore" remote="github" revision="kitkat" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
 
