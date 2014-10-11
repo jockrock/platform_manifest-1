@@ -451,5 +451,6 @@
 
   <!-- Device vendor projects -->
   <project path="vendor" name="android_vendor_asus_grouper" remote="euclidean" revision="psoa_r1" />
+  <project path="vendor/gapps" name="platform_vendor_gapps" remote="euclidean" revision="psoa_r1" />
 
 </manifest>
