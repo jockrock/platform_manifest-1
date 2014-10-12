@@ -25,7 +25,7 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform_art" remote="euclidean" revision="psoa_r1" />
-  <project path="bionic" name="omnirom/android_bionic" groups="pdk" remote="github" revision="android-4.4" />
+  <project path="bionic" name="platform_bionic" groups="pdk" remote="euclidean" revision="psoa_r1" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
@@ -273,7 +273,7 @@
   <project path="external/zxing" name="platform/external/zxing" />
 
   <!-- Frameworks for Android -->
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
+  <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="euclidean" revision="psoa_r1" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="euclidean" revision="psoa_r1" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
