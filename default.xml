@@ -25,7 +25,7 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform_art" remote="euclidean" revision="psoa_r1" />
-  <project path="bionic" name="Linearboost/platform_bionic" groups="pdk" remote="github" revision="linearboost" />
+  <project path="bionic" name="Linearboost/android_bionic" groups="pdk" remote="github" revision="linearboost" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
