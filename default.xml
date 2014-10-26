@@ -367,7 +367,7 @@
   <project path="pdk" name="platform/pdk" groups="pdk" />
 
   <!-- Euclidean Toolchains -->
-  <project path="prebuilt/linux-x86/toolchain" name="Christopher83/linaro_toolchains_2014" remote="github" revision="2014.09" />
+  <project path="prebuilt/linux-x86/toolchain" name="Christopher83/linaro_toolchains_2014" remote="github" revision="2014.10" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="UBERUTILS/arm-linux-androideabi-4.8" remote="github" revision="master" />
 
   <!-- Prebuilts -->
