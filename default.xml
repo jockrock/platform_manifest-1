@@ -21,7 +21,7 @@
            fetch="git://github.com/CyanogenMod/" />
   
   <remote name="linearboost"
-           fetch="https://github.com/inearboost/" />
+           fetch="https://github.com/linearboost/" />
   
   <project path="build" name="platform_build" groups="pdk" remote="euclidean" revision="psoa_r1" >
     <copyfile src="core/root.mk" dest="Makefile" />
