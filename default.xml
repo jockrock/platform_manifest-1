@@ -20,6 +20,8 @@
   <remote name="cyanogen"
            fetch="git://github.com/CyanogenMod/" />
   
+  <remote name="Linearboost"
+          fetch="https://github.com/Linearboost/" />
   
   <project path="build" name="platform_build" groups="pdk" remote="euclidean" revision="psoa_r1" >
     <copyfile src="core/root.mk" dest="Makefile" />
